@@ -1,0 +1,14 @@
+Sequence Graph Transform (SGT) works by quantifying the patterns in a 
+sequence by scanning the positions of all characters relative to each 
+other. They call it a graph transform because of its inherent property 
+of interpretation as a graph, where the characters form the nodes and 
+a directed connection between two nodes shows their “association.” These 
+“associations” between all characters represent the signature features 
+of a sequence.  These feature vectors can then be used for various data 
+mining activities such as clustering, finding most similar sequences and
+trainig machine learning and deep learning algorithms.
+
+https://arxiv.org/pdf/1608.03533.pdf
+https://github.com/cran2367/sgt
+
+
